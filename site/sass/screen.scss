@@ -5,10 +5,12 @@
 
 @import "compass/reset";
 
+$imgWidth: 1024px; // You need to repeat this value in the media query below
+
 img.bg {
         /* Set rules to fill background */
         min-height: 100%;
-        min-width: 1024px;
+        min-width: $imgWidth;
 
         /* Set up proportionate scaling */
         width: 100%;
@@ -23,6 +25,6 @@ img.bg {
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
         img.bg {
                 left: 50%;
-                margin-left: -512px;   /* 50% */
+                margin-left: - $imgWidth / 2;
         }
 }

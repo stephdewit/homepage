@@ -11,3 +11,17 @@ $contentWidth: 300px;
 	box-shadow: #333333 6px 6px 6px;
 	background-color: lightgrey;
 }
+
+$footerHeight: 40px;
+
+#footer {
+	width: 100%;
+	height: $footerHeight;
+	position: absolute;
+	bottom: $footerHeight / 2;
+	color: lightgrey;
+	background-color: black;
+	opacity: 0.8;
+	text-align: center;
+	line-height: $footerHeight;
+}

@@ -1,0 +1,13 @@
+$contentWidth: 300px;
+
+#content {
+	width: $contentWidth;
+	height: 400px;
+	position: absolute;
+	right: $contentWidth / 4;
+	top: $contentWidth / 4;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: #333333 6px 6px 6px;
+	background-color: lightgrey;
+}

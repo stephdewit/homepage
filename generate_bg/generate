@@ -1,6 +1,8 @@
 #!/bin/sh
 
-cat IMG_1338.JPG | \
+echo "$1 -> $2"
+
+cat $1 | \
 convert \
 	- \
 	-flop \
@@ -10,4 +12,4 @@ convert \
 exiftool \
 	-all= \
 	- \
-> ../site/bg.jpg
+> $2

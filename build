@@ -8,6 +8,6 @@ mkdir site
 
 cp -v src/index.htm site/
 
-generate_bg/generate generate_bg/IMG_1338.JPG site/bg.jpg
+bg/generate bg/IMG_1338.JPG site/bg.jpg
 
 compass compile -e production --sass-dir src/sass --css-dir site/stylesheets

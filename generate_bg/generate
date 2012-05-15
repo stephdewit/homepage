@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cat IMG_1338.JPG | \
 convert \
 	- \
